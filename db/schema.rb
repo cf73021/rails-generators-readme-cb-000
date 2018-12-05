@@ -11,7 +11,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20181203213327) do
+=======
+ActiveRecord::Schema.define(version: 20181203210625) do
+>>>>>>> d655b1d4d85b183a461c7ba07ab3b85032f7cd00
 
   create_table "accounts", force: :cascade do |t|
     t.string   "name"
@@ -40,7 +44,10 @@ ActiveRecord::Schema.define(version: 20181203213327) do
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
     t.integer  "category_id"
+<<<<<<< HEAD
     t.string   "post_status"
+=======
+>>>>>>> d655b1d4d85b183a461c7ba07ab3b85032f7cd00
   end
 
 end
